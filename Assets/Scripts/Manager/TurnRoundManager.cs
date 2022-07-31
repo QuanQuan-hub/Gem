@@ -17,7 +17,7 @@ public class Pass
         Next = null;
     }
 }
-public class Round:IComparer
+public class Round:IComparer<Round>
 {
     int order;//回合的优先级，玩家初始化回合时赋值
     //回合
